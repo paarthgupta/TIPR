@@ -1,0 +1,3 @@
+Test Accuracy on twitter using smoothing bayes::57.24540901502504
+Test Macro F1 Score on twitter using smoothing bayes::0.4942432073714822
+Test Micro F1 Score on twitter using smoothing bayes::0.5724540901502504
