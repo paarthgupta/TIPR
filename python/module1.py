@@ -231,10 +231,10 @@ def process_twitter(testpath):
 if __name__ =='__main__':
     args=sys.argv
     dataset_names = ['dolphins','pubmed','twitter']
-    testsetpath=args[1]
-    testsetlabel=args[2]
+    testsetpath=args[2]
+    testsetlabel=args[4]
 
-    given_dataset_name = args[3]
+    given_dataset_name = args[6]
     i = dataset_names.index(given_dataset_name)
 
     if (i==0):
