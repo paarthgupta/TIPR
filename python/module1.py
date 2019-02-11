@@ -560,7 +560,7 @@ if __name__ =='__main__':
         training_set=train_lsh
 
         test_label=np.array(load_data(testsetlabel))
-
+        test_set_pca=test_set
 
         m,n = train.shape
         #print(end)
@@ -715,7 +715,7 @@ if __name__ =='__main__':
         plot(x,a,7)
         plot(x,b,8)
         plot(x,c,9)
-        lsh.start(train_lsh,label_lsh,3)
+        lsh.start(train_lsh,label_lsh,test_set_pca,test_label,3)
         #file.close()
 
 def dolphins():
